@@ -1,0 +1,112 @@
+columns_info,variable_name,data_format,null_object_type,no_of_rows,missing_percent
+ 0   id                              39717 non-null  int64  ,,,,0,100.0
+ 1   member_id                       39717 non-null  int64  ,,,,1,100.0
+ 2   loan_amnt                       39717 non-null  int64  ,,,,2,100.0
+ 3   funded_amnt                     39717 non-null  int64  ,,,,3,100.0
+ 4   funded_amnt_inv                 39717 non-null  float64,,,,4,100.0
+ 5   term                            39717 non-null  object ,,,,5,100.0
+ 6   int_rate                        39717 non-null  object ,,,,6,100.0
+ 7   installment                     39717 non-null  float64,,,,7,100.0
+ 8   grade                           39717 non-null  object ,,,,8,100.0
+ 9   sub_grade                       39717 non-null  object ,,,,9,100.0
+ 10  emp_title                       37258 non-null  object ,,emp_title,,10,100.0
+ 11  emp_length                      38642 non-null  object ,,emp_length,,11,100.0
+ 12  home_ownership                  39717 non-null  object ,,home_ownership,,12,100.0
+ 13  annual_inc                      39717 non-null  float64,,annual_inc,,13,100.0
+ 14  verification_status             39717 non-null  object ,,verification_status,,14,100.0
+ 15  issue_d                         39717 non-null  object ,,issue_d,,15,100.0
+ 16  loan_status                     39717 non-null  object ,,loan_status,,16,100.0
+ 17  pymnt_plan                      39717 non-null  object ,,pymnt_plan,,17,100.0
+ 18  url                             39717 non-null  object ,,url,,18,100.0
+ 19  desc                            26777 non-null  object ,,desc,,19,100.0
+ 20  purpose                         39717 non-null  object ,,purpose,,20,100.0
+ 21  title                           39706 non-null  object ,,title,,21,100.0
+ 22  zip_code                        39717 non-null  object ,,zip_code,,22,100.0
+ 23  addr_state                      39717 non-null  object ,,addr_state,,23,100.0
+ 24  dti                             39717 non-null  float64,,dti,,24,100.0
+ 25  delinq_2yrs                     39717 non-null  int64  ,,delinq_2yrs,,25,100.0
+ 26  earliest_cr_line                39717 non-null  object ,,earliest_cr_line,,26,100.0
+ 27  inq_last_6mths                  39717 non-null  int64  ,,inq_last_6mths,,27,100.0
+ 28  mths_since_last_delinq          14035 non-null  float64,,mths_since_last_delinq,,28,100.0
+ 29  mths_since_last_record          2786 non-null   float64,,mths_since_last_record,,29,100.0
+ 30  open_acc                        39717 non-null  int64  ,,open_acc,,30,100.0
+ 31  pub_rec                         39717 non-null  int64  ,,pub_rec,,31,100.0
+ 32  revol_bal                       39717 non-null  int64  ,,revol_bal,,32,100.0
+ 33  revol_util                      39667 non-null  object ,,revol_util,,33,100.0
+ 34  total_acc                       39717 non-null  int64  ,,total_acc,,34,100.0
+ 35  initial_list_status             39717 non-null  object ,,initial_list_status,,35,100.0
+ 36  out_prncp                       39717 non-null  float64,,out_prncp,,36,100.0
+ 37  out_prncp_inv                   39717 non-null  float64,,out_prncp_inv,,37,100.0
+ 38  total_pymnt                     39717 non-null  float64,,total_pymnt,,38,100.0
+ 39  total_pymnt_inv                 39717 non-null  float64,,total_pymnt_inv,,39,100.0
+ 40  total_rec_prncp                 39717 non-null  float64,,total_rec_prncp,,40,100.0
+ 41  total_rec_int                   39717 non-null  float64,,total_rec_int,,41,100.0
+ 42  total_rec_late_fee              39717 non-null  float64,,total_rec_late_fee,,42,100.0
+ 43  recoveries                      39717 non-null  float64,,recoveries,,43,100.0
+ 44  collection_recovery_fee         39717 non-null  float64,,collection_recovery_fee,,44,100.0
+ 45  last_pymnt_d                    39646 non-null  object ,,last_pymnt_d,,45,100.0
+ 46  last_pymnt_amnt                 39717 non-null  float64,,last_pymnt_amnt,,46,100.0
+ 47  next_pymnt_d                    1140 non-null   object ,,next_pymnt_d,,47,100.0
+ 48  last_credit_pull_d              39715 non-null  object ,,last_credit_pull_d,,48,100.0
+ 49  collections_12_mths_ex_med      39661 non-null  float64,,collections_12_mths_ex_med,,49,100.0
+ 50  mths_since_last_major_derog     0 non-null      float64,,mths_since_last_major_derog,,50,100.0
+ 51  policy_code                     39717 non-null  int64  ,,policy_code,,51,100.0
+ 52  application_type                39717 non-null  object ,,application_type,,52,100.0
+ 53  annual_inc_joint                0 non-null      float64,,annual_inc_joint,,53,100.0
+ 54  dti_joint                       0 non-null      float64,,dti_joint,,54,100.0
+ 55  verification_status_joint       0 non-null      float64,,verification_status_joint,,55,100.0
+ 56  acc_now_delinq                  39717 non-null  int64  ,,acc_now_delinq,,56,100.0
+ 57  tot_coll_amt                    0 non-null      float64,,tot_coll_amt,,57,100.0
+ 58  tot_cur_bal                     0 non-null      float64,,tot_cur_bal,,58,100.0
+ 59  open_acc_6m                     0 non-null      float64,,open_acc_6m,,59,100.0
+ 60  open_il_6m                      0 non-null      float64,,open_il_6m,,60,100.0
+ 61  open_il_12m                     0 non-null      float64,,open_il_12m,,61,100.0
+ 62  open_il_24m                     0 non-null      float64,,open_il_24m,,62,100.0
+ 63  mths_since_rcnt_il              0 non-null      float64,,mths_since_rcnt_il,,63,100.0
+ 64  total_bal_il                    0 non-null      float64,,total_bal_il,,64,100.0
+ 65  il_util                         0 non-null      float64,,il_util,,65,100.0
+ 66  open_rv_12m                     0 non-null      float64,,open_rv_12m,,66,100.0
+ 67  open_rv_24m                     0 non-null      float64,,open_rv_24m,,67,100.0
+ 68  max_bal_bc                      0 non-null      float64,,max_bal_bc,,68,100.0
+ 69  all_util                        0 non-null      float64,,all_util,,69,100.0
+ 70  total_rev_hi_lim                0 non-null      float64,,total_rev_hi_lim,,70,100.0
+ 71  inq_fi                          0 non-null      float64,,inq_fi,,71,100.0
+ 72  total_cu_tl                     0 non-null      float64,,total_cu_tl,,72,100.0
+ 73  inq_last_12m                    0 non-null      float64,,inq_last_12m,,73,100.0
+ 74  acc_open_past_24mths            0 non-null      float64,,acc_open_past_24mths,,74,100.0
+ 75  avg_cur_bal                     0 non-null      float64,,avg_cur_bal,,75,100.0
+ 76  bc_open_to_buy                  0 non-null      float64,,bc_open_to_buy,,76,100.0
+ 77  bc_util                         0 non-null      float64,,bc_util,,77,100.0
+ 78  chargeoff_within_12_mths        39661 non-null  float64,,chargeoff_within_12_mths,,78,100.0
+ 79  delinq_amnt                     39717 non-null  int64  ,,delinq_amnt,,79,100.0
+ 80  mo_sin_old_il_acct              0 non-null      float64,,mo_sin_old_il_acct,,80,100.0
+ 81  mo_sin_old_rev_tl_op            0 non-null      float64,,mo_sin_old_rev_tl_op,,81,100.0
+ 82  mo_sin_rcnt_rev_tl_op           0 non-null      float64,,mo_sin_rcnt_rev_tl_op,,82,100.0
+ 83  mo_sin_rcnt_tl                  0 non-null      float64,,mo_sin_rcnt_tl,,83,100.0
+ 84  mort_acc                        0 non-null      float64,,mort_acc,,84,100.0
+ 85  mths_since_recent_bc            0 non-null      float64,,mths_since_recent_bc,,85,100.0
+ 86  mths_since_recent_bc_dlq        0 non-null      float64,,mths_since_recent_bc_dlq,,86,100.0
+ 87  mths_since_recent_inq           0 non-null      float64,,mths_since_recent_inq,,87,100.0
+ 88  mths_since_recent_revol_delinq  0 non-null      float64,,mths_since_recent_revol_delinq,,88,100.0
+ 89  num_accts_ever_120_pd           0 non-null      float64,,num_accts_ever_120_pd,,89,100.0
+ 90  num_actv_bc_tl                  0 non-null      float64,,num_actv_bc_tl,,90,100.0
+ 91  num_actv_rev_tl                 0 non-null      float64,,num_actv_rev_tl,,91,100.0
+ 92  num_bc_sats                     0 non-null      float64,,num_bc_sats,,92,100.0
+ 93  num_bc_tl                       0 non-null      float64,,num_bc_tl,,93,100.0
+ 94  num_il_tl                       0 non-null      float64,,num_il_tl,,94,100.0
+ 95  num_op_rev_tl                   0 non-null      float64,,num_op_rev_tl,,95,100.0
+ 96  num_rev_accts                   0 non-null      float64,,num_rev_accts,,96,100.0
+ 97  num_rev_tl_bal_gt_0             0 non-null      float64,,num_rev_tl_bal_gt_0,,97,100.0
+ 98  num_sats                        0 non-null      float64,,num_sats,,98,100.0
+ 99  num_tl_120dpd_2m                0 non-null      float64,,num_tl_120dpd_2m,,99,100.0
+ 100 num_tl_30dpd                    0 non-null      float64,,,num_tl_30dpd,100,100.0
+ 101 num_tl_90g_dpd_24m              0 non-null      float64,,,num_tl_90g_dpd_24m,101,100.0
+ 102 num_tl_op_past_12m              0 non-null      float64,,,num_tl_op_past_12m,102,100.0
+ 103 pct_tl_nvr_dlq                  0 non-null      float64,,,pct_tl_nvr_dlq,103,100.0
+ 104 percent_bc_gt_75                0 non-null      float64,,,percent_bc_gt_75,104,100.0
+ 105 pub_rec_bankruptcies            39020 non-null  float64,,,pub_rec_bankruptcies,105,100.0
+ 106 tax_liens                       39678 non-null  float64,,,tax_liens,106,100.0
+ 107 tot_hi_cred_lim                 0 non-null      float64,,,tot_hi_cred_lim,107,100.0
+ 108 total_bal_ex_mort               0 non-null      float64,,,total_bal_ex_mort,108,100.0
+ 109 total_bc_limit                  0 non-null      float64,,,total_bc_limit,109,100.0
+ 110 total_il_high_credit_limit      0 non-null      float64,,,total_il_high_credit_limit,110,100.0
