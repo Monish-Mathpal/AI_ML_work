@@ -1,5 +1,5 @@
 import unittest
-from add import add
+from add import *
 
 def test_add():
     result = add(1, 2)
